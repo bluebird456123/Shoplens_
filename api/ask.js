@@ -115,7 +115,6 @@ async function askGemini(question) {
       contents: [{ role: "user", parts: [{ text: question }] }],
       generationConfig: {
         maxOutputTokens: 250,
-        thinkingConfig: { thinkingBudget: 0 },
         responseMimeType: "application/json",
         responseSchema: {
           type: "OBJECT",
