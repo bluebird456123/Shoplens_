@@ -7,7 +7,7 @@
 // Environment variables (set in Vercel > Project > Settings > Environment Variables):
 //   GEMINI_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_KEY
 
-const MODEL = "gemini-2.5-flash-lite";
+const MODEL = "gemini-3.5-flash-lite";
 const TABLE = "shoplens_questions";
 const FREE_QUESTIONS = 5;
 const MAX_QUESTION_LENGTH = 300;
